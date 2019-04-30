@@ -1,0 +1,102 @@
+/*defult-css-start*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: ;
+    font-weight:normal;
+    font-style: normal;
+}
+ul,ol{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+img{
+    max-width: 100%;
+    transition: .3s;
+}
+.fix{
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    transition: .3s;
+}
+a:hover{
+    color: #ce4445;
+    text-decoration: none;
+    transition: .3s;
+}
+a,
+a:hover,
+a:focus,
+button,
+button:focus {
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: ;
+    margin-top: 0;
+    color: #353535;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: normal;
+}
+*::placeholder{
+    color: #555555;
+    font-size: 14px;
+    opacity: 1;
+}
+*::-moz-placeholder{
+    color: #555555;
+    font-size: 14px;
+    opacity: 1;
+}
+::selection{
+    color: #fff;
+    background: #000;
+}
+
+/*defult-css-end*/
+
+
+/*==============
+portfolio-area
+================*/
+.portfolio-iteam img{
+    width: 100%;
+}
+.portfolio-iteam {
+    margin-bottom: 30px;
+}
+.portfolio-menu{
+    padding: 40px 40px;
+}
+.portfolio-menu button {
+  border: 1px solid #cefbfd;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 8px;
+  border: 1px solid #ddd;
+  text-transform: uppercase;
+  border-radius: 50px;
+    cursor: pointer;
+}
+.portfolio-menu  button.active{
+color: red;
+    background: #fff;
+    
+}
+
